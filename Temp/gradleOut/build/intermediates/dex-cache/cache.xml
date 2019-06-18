@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\kw697m\.android\build-cache\a32ca41ce278f7b2e695157eca26154a8902b751\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.0"
+        sha1="d46bca2836cb936675a51f8d54e3402015d835cb">
+        <dex dex="C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_9e7ab04b0a59b4580ec6819bd90d78f2a1283af0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kw697m\.android\build-cache\a32ca41ce278f7b2e695157eca26154a8902b751\output\jars\libs\VuforiaUnityPlayer.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.0"
+        sha1="b2a53d38a505be89060de16e0ff5280f5642c9da">
+        <dex dex="C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\build\intermediates\pre-dexed\release\VuforiaUnityPlayer_34242a7ebbd0d7b88d75ef4ddf9d1c76048bf097.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\libs\unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.0"
+        sha1="d22351baa59d7f4dc7e27d2a622cf1a4899e9a0a">
+        <dex dex="C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_82f33d1d50bf61b4a33b9957526684e1aea0b35f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kw697m\.android\build-cache\a32ca41ce278f7b2e695157eca26154a8902b751\output\jars\libs\Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.0"
+        sha1="43e2c75a74132e6287974dcac936fa93db1f5f84">
+        <dex dex="C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\build\intermediates\pre-dexed\release\Vuforia_15d3894a34c8197bf374ede1bb09530713eff654.jar" />
+    </item>
+
+</items>
