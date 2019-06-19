@@ -1,4 +1,4 @@
-#Tue Jun 18 09:43:33 PDT 2019
+#Wed Jun 19 10:25:13 PDT 2019
 base.0=C\:\\Users\\kw697m\\Desktop\\example\\piccaso-simulator-demo\\CatMoney\\Temp\\gradleOut\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\kw697m\\Desktop\\example\\piccaso-simulator-demo\\CatMoney\\Temp\\gradleOut\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

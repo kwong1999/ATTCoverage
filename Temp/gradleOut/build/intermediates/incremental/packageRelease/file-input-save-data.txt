@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jun 18 09:43:58 PDT 2019
+#Wed Jun 19 10:25:37 PDT 2019
 60.set=ASSET
 52.set=ASSET
 53.base=C\:\\Users\\kw697m\\Desktop\\example\\piccaso-simulator-demo\\CatMoney\\Temp\\gradleOut\\build\\intermediates\\assets\\release

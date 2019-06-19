@@ -18,6 +18,15 @@
 
     <uses-feature android:glEsVersion="0x00020000" />
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-feature
@@ -71,7 +80,7 @@
 
         <meta-data
             android:name="unity.build-id"
-            android:value="f6f25c31-7e0e-4980-8192-a8664884d4c5" />
+            android:value="783c1d42-d6b6-461a-8f6b-7530cb6e4698" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />

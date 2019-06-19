@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:2:70-93
 		INJECTED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml
@@ -96,49 +96,65 @@ uses-feature#0x00020000
 ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:16:3-52
 	android:glEsVersion
 		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:16:17-49
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:17:3-77
+	android:name
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:17:20-74
+uses-feature#android.hardware.location.gps
+ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:18:3-89
+	android:required
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:18:62-86
+	android:name
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:18:17-61
+uses-feature#android.hardware.location
+ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:19:3-85
+	android:required
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:19:58-82
+	android:name
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:19:17-57
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:17:3-63
+ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:20:3-63
 MERGED from [:VuforiaWrapper:] C:\Users\kw697m\.android\build-cache\a32ca41ce278f7b2e695157eca26154a8902b751\output\AndroidManifest.xml:15:5-65
 	android:name
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:17:20-60
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:20:20-60
 uses-feature#android.hardware.camera
-ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:18:3-83
+ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:21:3-83
 MERGED from [:VuforiaWrapper:] C:\Users\kw697m\.android\build-cache\a32ca41ce278f7b2e695157eca26154a8902b751\output\AndroidManifest.xml:12:5-60
 	android:required
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:18:56-80
-		MERGED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:18:56-80
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:21:56-80
+		MERGED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:21:56-80
 	android:name
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:18:17-55
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:21:17-55
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:19:3-93
+ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:22:3-93
 	android:required
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:19:66-90
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:22:66-90
 	android:name
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:19:17-65
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:22:17-65
 uses-feature#android.hardware.camera.front
-ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:20:3-89
+ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:23:3-89
 	android:required
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:20:62-86
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:23:62-86
 	android:name
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:20:17-61
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:23:17-61
 uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:21:3-88
+ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:24:3-88
 	android:required
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:21:61-85
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:24:61-85
 	android:name
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:21:17-60
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:24:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:22:3-99
+ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:25:3-99
 	android:required
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:22:72-96
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:25:72-96
 	android:name
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:22:17-71
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:25:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:23:3-108
+ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:26:3-108
 	android:required
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:23:81-105
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:26:81-105
 	android:name
-		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:23:17-80
+		ADDED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:26:17-80
 uses-sdk
 INJECTED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [:VuforiaWrapper:] C:\Users\kw697m\.android\build-cache\a32ca41ce278f7b2e695157eca26154a8902b751\output\AndroidManifest.xml:8:5-10:41
@@ -167,4 +183,4 @@ ADDED from [:VuforiaWrapper:] C:\Users\kw697m\.android\build-cache\a32ca41ce278f
 	android:name
 		ADDED from [:VuforiaWrapper:] C:\Users\kw697m\.android\build-cache\a32ca41ce278f7b2e695157eca26154a8902b751\output\AndroidManifest.xml:23:13-54
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-24:12 reason: com.vuforia.engine.ext requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\kw697m\Desktop\example\piccaso-simulator-demo\CatMoney\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12 reason: com.vuforia.engine.ext requested WRITE_EXTERNAL_STORAGE

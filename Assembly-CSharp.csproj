@@ -61,8 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\direct.cs" />
     <Compile Include="Assets\scripts\catMove.cs" />
-    <Compile Include="Assets\scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\scripts\compassDirection.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
     <None Include="Assets\StreamingAssets\Vuforia\dollarDatabase.xml" />
