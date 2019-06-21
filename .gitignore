@@ -265,4 +265,6 @@ __pycache__/
 
 obj/Debug/*
 Library/ShaderCache/*
+Library/*
+Logs/*
 Logs/Packages-Update.log QCAR/
