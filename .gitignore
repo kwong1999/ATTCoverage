@@ -263,6 +263,7 @@ paket-files/
 __pycache__/
 *.pyc
 
+*.csproj
 Logs/*
 .vs/*
 obj/*
@@ -270,3 +271,4 @@ Temp/*
 Library/*
 ATTCoverage.sln ATTCoverage.csproj ATTCoverage.Editor.csproj VuforiaEditorScripts.csproj VuforiaScripts.csproj
 ATTCoverage.sln
+ProjectSettings/ProjectSettings.asset
