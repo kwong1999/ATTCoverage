@@ -7,7 +7,6 @@ public class TextManager : MonoBehaviour
 {
     public Text Lat, Lon, Dir;
 
-
     GameObject dialog = null;
     //public Text gpsinfo;
     void StartLocationCheck()
@@ -37,8 +36,12 @@ public class TextManager : MonoBehaviour
             Destroy(dialog);
         }
 #endif
-
         // Now you can do things with the microphone 
+    }
+
+    void UpdateLocation()
+    {
+
     }
     // Start is called before the first frame update 
     IEnumerator Start()
@@ -78,12 +81,13 @@ public class TextManager : MonoBehaviour
         else
         {
             // Access granted and location value could be retrieved 
-            print("Location: " + Input.location.lastData.latitude + ", " + Input.location.lastData.longitude + " " + Input.location.lastData.altitude + " " + Input.location.lastData.horizontalAccuracy + " " + Input.location.lastData.timestamp + "\n" + Input.compass.trueHeading);
-
-
-            Lat.text = "Location: " + Input.location.lastData.latitude + ", " + Input.location.lastData.longitude + " " + Input.location.lastData.altitude + " " + Input.location.lastData.horizontalAccuracy + " " + Input.location.lastData.timestamp + "\n" + Input.compass.trueHeading;
+            Lat.text = "LAT: " + (Input.location.lastData.latitude).ToString();
+            Lon.text = "LON: " + (Input.location.lastData.longitude).ToString();
+            Dir.text = "Heading: " + Input.compass.magneticHeading.ToString();
         }
+
         Checks();
+
         // Connection has failed 
         if (Input.location.status == LocationServiceStatus.Failed)
         {
@@ -93,10 +97,9 @@ public class TextManager : MonoBehaviour
         else
         {
             // Access granted and location value could be retrieved 
-            print("Location: " + Input.location.lastData.latitude + ", " + Input.location.lastData.longitude + ", " + Input.location.lastData.altitude + ", " + Input.location.lastData.horizontalAccuracy + " " + Input.location.lastData.timestamp + "\n" + Input.compass.trueHeading);
-            Debug.Log(Input.location.lastData.latitude);
-
-            Lat.text = "Location: " + Input.location.lastData.latitude + ", " + Input.location.lastData.longitude + ", " + Input.location.lastData.altitude + ", " + Input.location.lastData.horizontalAccuracy + " " + Input.location.lastData.timestamp + "\n" + Input.compass.trueHeading;
+            Lat.text = "LAT: " + (Input.location.lastData.latitude).ToString();
+            Lon.text = "LON: " + (Input.location.lastData.longitude).ToString();
+            Dir.text = "Heading: " + Input.compass.magneticHeading.ToString();
         }
     }
 
@@ -110,8 +113,6 @@ public class TextManager : MonoBehaviour
         else
         {
             // Access granted and location value could be retrieved 
-            print("Location: " + Input.location.lastData.latitude + ", " + Input.location.lastData.longitude + " " + Input.location.lastData.altitude + " " + Input.location.lastData.horizontalAccuracy + " " + Input.location.lastData.timestamp);
-
             Lat.text = "LAT: " + (Input.location.lastData.latitude).ToString();
             Lon.text = "LON: " + (Input.location.lastData.longitude).ToString();
             Dir.text = "Heading: " + Input.compass.magneticHeading.ToString();
