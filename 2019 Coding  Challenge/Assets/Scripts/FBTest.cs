@@ -11,14 +11,15 @@ public class FBTest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
+        Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task =>
+        {
             var dependencyStatus = task.Result;
             if (dependencyStatus == Firebase.DependencyStatus.Available)
             {
                 // Create and hold a reference to your FirebaseApp,
                 // where app is a Firebase.FirebaseApp property of your application class.
                 //   app = Firebase.FirebaseApp.DefaultInstance;
-                 app = Firebase.FirebaseApp.DefaultInstance;
+                app = Firebase.FirebaseApp.DefaultInstance;
                 app.SetEditorDatabaseUrl("https://newprojectforwork.firebaseio.com/");
                 DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
                 // Set a flag here to indicate whether Firebase is ready to use by your app.
