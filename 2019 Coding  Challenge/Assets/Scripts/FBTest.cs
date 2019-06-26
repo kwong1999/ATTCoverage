@@ -23,6 +23,7 @@ public class FBTest : MonoBehaviour
                 app.SetEditorDatabaseUrl("https://newprojectforwork.firebaseio.com/");
                 DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
                 // Set a flag here to indicate whether Firebase is ready to use by your app.
+                Debug.Log("Hello World, this may not work....");
                 printData();
 
             }
@@ -30,17 +31,19 @@ public class FBTest : MonoBehaviour
             {
                 UnityEngine.Debug.LogError(System.String.Format(
                   "Could not resolve all Firebase dependencies: {0}", dependencyStatus));
+                Debug.Log(System.String.Format(
+                                  "Could not resolve all Firebase dependencies: {0}", dependencyStatus));
                 // Firebase Unity SDK is not safe to use here.
             }
         });
 
-
-
+        printData();
     }
 
     // Update is called once per frame
     void Update()
     {
+        printData();
         
     }
     private void printData()
@@ -50,10 +53,12 @@ public class FBTest : MonoBehaviour
                 if (task.IsFaulted)
                 {
                     // Handle the error...
+                    Debug.Log("ERROR Loading data");
                 }
                 else if (task.IsCompleted)
                 {
                     DataSnapshot snapshot = task.Result;
+                    Debug.Log("Success?>?>?>?");
                     Debug.Log(snapshot.GetRawJsonValue());
 
                     // Do something with snapshot...
